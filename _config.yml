@@ -2,6 +2,8 @@ title : Tail
 name: 'Tail'
 description: 'Logs about programming'
 
+baseurl: /blog
+
 markdown: kramdown
 highlighter: rouge
 javascript_enabled: true

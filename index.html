@@ -21,7 +21,7 @@ cover: false
           {% for post in collection.docs %}
           <div class="post-wrapper">
             <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%Y" }}</time>
-            <a class="post-link" href="{{ post.url }}">
+            <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
               {{ post.title }}
             </a>
           </div>

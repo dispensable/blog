@@ -21,7 +21,7 @@ title: Tags
   <ul>
     {%- for document in alldocs -%}
       {% if document.tags contains tag.name %}
-        <li><a href="{{ document.url }}">{{ document.title }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
