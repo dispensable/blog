@@ -1,6 +1,6 @@
-title : Elementary - Jekyll Blog Theme
-name: 'Elementary Jekyll Theme'
-description: 'Simple, light weight, responsive jekyll theme for hackers'
+title : Tail
+name: 'Tail'
+description: 'Logs about programming'
 
 markdown: kramdown
 highlighter: rouge
@@ -16,12 +16,8 @@ featured_posts:
     title: 'Featured post #3'
 
 collections:
-  news:
-    title: News
-    default_open: false
-    output: true
   posts:
-    title: Essays
+    title: Notes
     default_open: true
     output: true
 
@@ -31,11 +27,6 @@ defaults:
     values:
       title: Essays
       permalink: /post/:title
-  - scope:
-      type: news
-    values:
-      title: News
-      permalink: /news/:title
 
 plugins:
   - jekyll-sitemap
