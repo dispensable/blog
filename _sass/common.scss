@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: var(--typography__default);
   font-weight: 400;
   display: flex;
@@ -147,7 +147,7 @@ blockquote {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 0.95rem;
   line-height: 1.6em;
   color: #333;
   margin: 1.25rem 0;
@@ -162,7 +162,7 @@ p {
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 0.75rem 0;
   letter-spacing: 0.5px;
 }
@@ -173,13 +173,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0.75rem 0;
   letter-spacing: 0.5px;
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0.75rem 0;
   letter-spacing: 0.5px;
 }
@@ -208,7 +208,7 @@ ul, ol {
 }
 
 li {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.6em;
   color: #333;
 }
