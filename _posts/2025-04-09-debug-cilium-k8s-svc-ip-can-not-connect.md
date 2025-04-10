@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debugging Cilium: Why Pod Connection to SVC IP Failed
+title: "Debugging Cilium: Why Pod Connection to SVC IP Failed"
 tags:
 - k8s
 - cilium
