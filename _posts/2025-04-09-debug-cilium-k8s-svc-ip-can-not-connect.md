@@ -1,12 +1,10 @@
 ---
-
 layout: post
 title: Debugging Cilium: Why Pod Connection to SVC IP Failed
 tags:
 - k8s
 - cilium
 - network
-
 ---
 
 Last week, a platform developer reported an issue with the new Kubernetes (k8s) cluster we prepared. Some node's daemon set (ds) pods can't connect to certain service IPs (most service IPs still work). So, I started debugging to find out why.
@@ -57,7 +55,7 @@ The `ac 10 6d 7f` is `172.16.109.127`, which is the correct IP in the map, consi
 
 If Cilium employs tc ingress BPF to modify the destination IP, tcpdump should show the original service IP because:
 
-![network_packet_flow](./images/packet_flow_in_netfilter_and_genetic_network.png)
+![network_packet_flow](https://raw.githubusercontent.com/dispensable/blog/refs/heads/master/_posts/images/packet_flow_in_netfilter_and_genetic_network.png)
 
 The TAP AF_PACKET occurs before the tc ingress in the packet flow of Linux.
 
